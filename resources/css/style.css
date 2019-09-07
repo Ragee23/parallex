@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #1c1f1f;
+    line-height: 1.8em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.img-1, .img-2, .img-3{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    /* opacity: 0.7; */
+}
+
+.img-1{
+    background-image: url('../imgs/atlantic-ocean-blue-ocean-blue-water-2860705.jpg');
+    height: 100vh;
+}
+
+.img-2{
+    background-image: url('../imgs/beach-bird-s-eye-view-coast-2499700.jpg');
+    height: 50vh;
+}
+
+.img-3{
+    background-image: url('../imgs/beach-blue-coast-1056497.jpg');
+    height: 50vh;
+}
+
+.text-1, .text-2, .text-3, .text-4{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 100%;
+}
+
+.text-1 span, .text-2 span, .text-3 span, .text-4 span{
+    font-family: 'Crimson Text', serif;
+    font-size: 8rem;
+}
+
+.text-2 span, .text-3 span{
+    font-size: 3rem;
+}
+
+.border{
+    background-color: #7297b1c2;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
+.light{
+    background-color: #c799780d;
+}
+
+.dark{
+    background-color: #e5e4df4a;
+}
